@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["hello_world/hello_universe.spec.js"],"sourcesContent":["// Default imports test\nimport greet from './hello_universe';\n\ndescribe(\"hello universe\", function () {\n\n    it(\"greets better than hello world\", function () {\n        expect(greet()).toBe('Hello Universe!');\n    });\n\n});\n"],"file":"hello_universe.spec.js"}

@@ -5,3 +5,5 @@ export var greet = function () {
 export var bye = function () {
     return 'See ya!';
 };
+
+//# sourceMappingURL=hello_world.js.map

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["hello_world/hello_world.js"],"sourcesContent":["export var greet = function () {\n    return 'Hello World!';\n};\n\nexport var bye = function () {\n    return 'See ya!';\n};\n"],"file":"hello_world.js"}

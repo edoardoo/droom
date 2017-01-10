@@ -1,5 +1,5 @@
 {
-  "name": "nw-boilerplate",
+  "name": "nw-boilerplate-dev",
   "productName": "NW Boilerplate",
   "description": "Starter for NW.js application. Out of the box ready for serious stuff.",
   "version": "0.1.0",
@@ -19,6 +19,8 @@
     "angular": "^1.6.1",
     "angular-route": "^1.6.1",
     "fs-jetpack": "^0.6.4",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.97.8"
   }
 }

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["components/version/version.js"],"sourcesContent":["'use strict';\n\nangular.module('myApp.version', [\n  'myApp.version.interpolate-filter',\n  'myApp.version.version-directive'\n])\n\n.value('version', '0.1');\n"],"file":"version.js"}

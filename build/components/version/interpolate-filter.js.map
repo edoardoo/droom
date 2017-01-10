@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["components/version/interpolate-filter.js"],"sourcesContent":["'use strict';\n\nangular.module('myApp.version.interpolate-filter', [])\n\n.filter('interpolate', ['version', function(version) {\n  return function(text) {\n    return String(text).replace(/\\%VERSION\\%/mg, version);\n  };\n}]);\n"],"file":"interpolate-filter.js"}

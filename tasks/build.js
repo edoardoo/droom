@@ -49,7 +49,6 @@ gulp.task('copy-watch', copyTask);
 var transpileTask = function () {
     return gulp.src(paths.jsCodeToTranspile)
     .pipe(sourcemaps.init())
-    .pipe(babel({ modules: 'amd' }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(destDir.path()));
 };

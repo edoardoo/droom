@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["components/version/version-directive.js"],"sourcesContent":["'use strict';\n\nangular.module('myApp.version.version-directive', [])\n\n.directive('appVersion', ['version', function(version) {\n  return function(scope, elm, attrs) {\n    elm.text(version);\n  };\n}]);\n"],"file":"version-directive.js"}
